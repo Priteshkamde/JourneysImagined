@@ -1,0 +1,50 @@
+/*.rside , .lside{
+	height: 50vh;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px){
+	.rside , .lside {
+		height: 100vh;
+	}
+}*/
+
+.card {
+	font-family: 'Roboto', sans-serif;
+}
+.rside {
+	background : url("https://images.unsplash.com/photo-1514315153150-cd7d8d716178");
+	border: 0.1px white;
+	border-bottom-left-radius: 50px;
+	/*background-size: cover;*/
+}
+
+@media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+
+.fa {
+  /*padding: 20px;*/
+  font-size: 30px;
+  color: black;
+}
+.hover_effect:hover {
+  transform : scale(1.1);
+  transition: transform .5s; /* Animation */
+}
+.card{
+  border-radius:20px !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+.img_resize_effect{
+  height: 15vh;
+}
+
+.card_text_bg {
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+}
